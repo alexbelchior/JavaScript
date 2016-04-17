@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<script>
+
+var pulaLinha = function(){
+	document.write("<br>");
+};
+
+var mostra = function(frase) {
+	document.write(frase);
+	pulaLinha();
+	pulaLinha();
+};
+
+var multiplicador = 1;
+var valor = parseInt(prompt("Digite o número para a tabuada"));
+
+mostra("Repetição com While");
+while(multiplicador <= 10){
+	mostra(valor * multiplicador);
+	multiplicador++;
+}
+mostra("-------------------")
+
+mostra("Repetição com for");
+for (var multiplicador2 = 1; multiplicador2 <= 0; multiplicador2++) {
+	mostra(valor * multiplicador2);
+}
+mostra("-------------------");
+
+
+</script>
