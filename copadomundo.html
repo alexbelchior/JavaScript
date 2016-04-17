@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+var pulaLinha = function(){
+	document.write("<br>");
+};
+
+var mostra = function(frase) {
+	document.write(frase);
+	pulaLinha();
+	pulaLinha();
+};
+
+var anoDeCopa = parseInt(prompt("Digite o ano inicial de Copa de Mundo"));
+var anoLimite = parseInt(prompt("Digite o ano limite"));
+
+while(anoDeCopa <= anoLimite){
+	mostra(anoDeCopa);
+	anoDeCopa = anoDeCopa + 4;
+}
+
+</script>
