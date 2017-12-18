@@ -39,8 +39,3 @@ for(var i = 0; i<pacientes.length; i++){
 }
 
 var botaoAdicionar = document.querySelector("#adicionar-paciente");
-
-botaoAdicionar.addEventListener("click", function(event){
-  event.preventDefault();//Elimina o comportamento padrão do botão que está dentro do form de recarregar a página.
-  console.log("Fui clicado!");
-});
